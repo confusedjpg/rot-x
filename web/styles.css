@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(40, 40, 40);
+  color: whitesmoke;
+}
+
+#main {
+  display: block;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  /*border: 2px gray dotted;*/
+}
+
+#input, #output {
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 200px;
+  max-height: 200px;
+  margin: auto;
+  display: block;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  outline: none;
+  border: 1px gray dashed;
+  border-radius: 7px;
+}
+
+#input {
+  border: 2px gray solid;
+}
+
+#offset {
+  margin: 15px;
+}
